@@ -9,7 +9,7 @@ RUN npm i express
 RUN npm install
 
 
-COPY . .  copia tutto da dove ho lanciato il build dell'immagine dentro la workdir. 
+COPY . . 
 
 
 CMD ["node", "nodeapp.js"]
